@@ -34,14 +34,14 @@ android {
 }
 
 dependencies {
+    // 최소한의 의존성만 유지
     implementation(libs.androidx.core.ktx)
 
     // Room (optional - 사용자가 DB 암호화 사용할 때만 필요)
     compileOnly("androidx.room:room-runtime:2.6.1")
 
+    // 테스트
     testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
 }
 
 // JitPack publication
