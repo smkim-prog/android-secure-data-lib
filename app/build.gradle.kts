@@ -51,7 +51,7 @@ afterEvaluate {
             create<MavenPublication>("release") {
                 from(components["release"])
                 groupId = "com.github.ksign"
-                artifactId = "secure-data"
+                artifactId = "android-secure-data-lib"
                 version = "1.0.0"
             }
         }
